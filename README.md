@@ -21,10 +21,15 @@ Make sure all .ipynb files are in the same repository.
   * now run the code block. The current version of this code is not optimised so here is a short table of times vs lattice sizes
      | lattice sizes | Time taken for simulation( 26 samples, 1000 starting configurations, 200 thermalisation steps )|
      |      10       |     48 minutes
+     
      |      20       |     48 minutes
+     
      |      30       |     1hrs 51 minutes
+     
      |      40       |     3hrs 14 minutes
+     
      |      50       |     5hrs 8 minutes
+     
      |      60       |     8hrs
      This was on the cpu of a HP pavilion laptop 15-eh0xx
 - now run the file pre-processing ipynb and change splitting segments for training and test sets if necessary
