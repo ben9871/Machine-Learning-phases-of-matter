@@ -7,10 +7,10 @@ thermalised and uncorrelated raw configurations sampled by the Monte Carlo simul
 
 
 ####### FILE LIST ###########
-1. Create Ising training and test data
-2. file pre-processing
-3. Machine learning FCN
-4. Toy_model
+1. Create Ising training and test data.ipynb
+2. file pre-processing.ipynb
+3. Machine learning FCN.ipynb
+4. Toy_model.ipynb
 
 ####### USER GUIDE ##########
 Make sure all .ipynb files are in the same repository.
@@ -30,3 +30,7 @@ Make sure all .ipynb files are in the same repository.
 - now run the file pre-processing ipynb and change splitting segments for training and test sets if necessary
 - Run the machine learning FCN ipynb and obtain the required graphs. The model can be tailored as necessary, the rest shouldn't require tweaking
 - Run the Toy_model.ipynb and obtain the required graphs. no tweaking or modification should be necessary
+
+##### extra #########
+I have added sample datafiles(as .npz in the format lats=lattices, temperatures=temperatures) files to the folder so the user may download and play around with the fully connected neural network without having to run the ising model code for new configurations. 
+So if one uses these files, you can start from the pre_processing step. Sample files are for lattices 10,20,30,40,50,60
