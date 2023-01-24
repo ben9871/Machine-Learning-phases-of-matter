@@ -5,6 +5,15 @@ total magnetization as a function of temperature for a square lattice. These dat
 were then used to train a fully forward neural network to perform supervised learning of the
 thermalised and uncorrelated raw configurations sampled by the Monte Carlo simulation
 
+###### LATEST COMMIT #########
+
+Changed the FCN to be more like the one specified in the paper. Appropriately gave better results with the following parameters
+
+"The neural network is composed of an input layer with values determined by
+the spin configurations, 100-unit hidden layer of sigmoid neurons, and an analogous output
+layer. We use a cross-entropy cost function supplemented with an L2 regularization term
+to prevent overfitting. The neural network is trained using the Adam method for stochastic
+optimization"
 
 ####### FILE LIST ###########
 1. Create Ising training and test data.ipynb
