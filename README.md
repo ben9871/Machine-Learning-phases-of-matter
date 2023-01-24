@@ -19,7 +19,9 @@ Make sure all .ipynb files are in the same repository.
   * determine number of thermalisation steps, samples and number of starting configurations
   * specify what Lattices you desire and of what size e.g L = [10,20,30,40,50,60]
   * now run the code block. The current version of this code is not optimised so here is a short table of times vs lattice sizes
+  * 
      | lattice sizes | Time taken for simulation( 26 samples, 1000 starting configurations, 200 thermalisation steps )|
+     
      |      10       |     48 minutes
      
      |      20       |     48 minutes
@@ -31,6 +33,7 @@ Make sure all .ipynb files are in the same repository.
      |      50       |     5hrs 8 minutes
      
      |      60       |     8hrs
+     
      This was on the cpu of a HP pavilion laptop 15-eh0xx
 - now run the file pre-processing ipynb and change splitting segments for training and test sets if necessary
 - Run the machine learning FCN ipynb and obtain the required graphs. The model can be tailored as necessary, the rest shouldn't require tweaking
